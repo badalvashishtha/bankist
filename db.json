@@ -1,0 +1,314 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "owner": "Ajay Chaudhary",
+      "pin": 1111,
+      "username": "ac",
+      "balance": 12330
+    },
+    {
+      "id": 2,
+      "owner": "Badal Vashishtha",
+      "pin": 2222,
+      "username": "bv",
+      "balance": 31143
+    },
+    {
+      "id": 3,
+      "owner": "Rajesh Gupta",
+      "username": "rg",
+      "balance": 9000,
+      "pin": 3333
+    },
+    {
+      "id": 4,
+      "owner": "Pankaj Rajput",
+      "username": "pr",
+      "balance": 9670,
+      "pin": 4444
+    },
+    {
+      "id": 5,
+      "owner": "Rancho Vashishtha",
+      "pin": 2323,
+      "username": "rv",
+      "balance": 62051
+    },
+    {
+      "id": 6,
+      "owner": "Manjeet Singh",
+      "username": "ms",
+      "balance": 25610,
+      "pin": "6666"
+    }
+  ],
+  "transactions": [
+    {
+      "accountId": "2",
+      "id": 1688711653254,
+      "user": "Ajay Chaudhary",
+      "date": "7/7/2023",
+      "amount": 300
+    },
+    {
+      "accountId": "1",
+      "id": 1688711653272,
+      "user": "Badal Vashishtha",
+      "date": "7/7/2023",
+      "amount": -300
+    },
+    {
+      "accountId": "3",
+      "id": 1688711694035,
+      "user": "Ajay Chaudhary",
+      "date": "7/7/2023",
+      "amount": 250
+    },
+    {
+      "accountId": "1",
+      "id": 1688711694078,
+      "user": "Rajesh Gupta",
+      "date": "7/7/2023",
+      "amount": -250
+    },
+    {
+      "accountId": "1",
+      "id": 1688711728728,
+      "user": "Badal Vashishtha",
+      "date": "7/7/2023",
+      "amount": 500
+    },
+    {
+      "accountId": "2",
+      "id": 1688711728762,
+      "user": "Ajay Chaudhary",
+      "date": "7/7/2023",
+      "amount": -500
+    },
+    {
+      "accountId": "4",
+      "id": 1688711796336,
+      "user": "Badal Vashishtha",
+      "date": "7/7/2023",
+      "amount": 400
+    },
+    {
+      "accountId": "2",
+      "id": 1688711796378,
+      "user": "Pankaj Rajput",
+      "date": "7/7/2023",
+      "amount": -400
+    },
+    {
+      "accountId": "3",
+      "id": 1688711887022,
+      "user": "Pankaj Rajput",
+      "date": "7/7/2023",
+      "amount": 230
+    },
+    {
+      "accountId": "3",
+      "id": 1688711887044,
+      "user": "Pankaj Rajput",
+      "date": "7/7/2023",
+      "amount": 230
+    },
+    {
+      "accountId": "4",
+      "id": 1688711887077,
+      "user": "Rajesh Gupta",
+      "date": "7/7/2023",
+      "amount": -230
+    },
+    {
+      "accountId": "4",
+      "id": 1688711887085,
+      "user": "Rajesh Gupta",
+      "date": "7/7/2023",
+      "amount": -230
+    },
+    {
+      "accountId": "1",
+      "id": 1688711911818,
+      "user": "Pankaj Rajput",
+      "date": "7/7/2023",
+      "amount": 500
+    },
+    {
+      "accountId": "4",
+      "id": 1688711911863,
+      "user": "Ajay Chaudhary",
+      "date": "7/7/2023",
+      "amount": -500
+    },
+    {
+      "accountId": "2",
+      "id": 1688712221498,
+      "user": "Rajesh Gupta",
+      "date": "7/7/2023",
+      "amount": 1480
+    },
+    {
+      "accountId": "3",
+      "id": 1688712221532,
+      "user": "Badal Vashishtha",
+      "date": "7/7/2023",
+      "amount": -1480
+    },
+    {
+      "accountId": "1",
+      "id": 1688714412952,
+      "user": "Badal Vashishtha",
+      "date": "7/7/2023",
+      "amount": 837
+    },
+    {
+      "accountId": "2",
+      "id": 1688714412969,
+      "user": "Ajay Chaudhary",
+      "date": "7/7/2023",
+      "amount": -837
+    },
+    {
+      "accountId": "2",
+      "id": 1688752083734,
+      "user": "Bank Loan",
+      "date": "7/7/2023",
+      "amount": 123
+    },
+    {
+      "accountId": "1",
+      "id": 1688752333558,
+      "user": "Badal Vashishtha",
+      "date": "7/7/2023",
+      "amount": 996
+    },
+    {
+      "accountId": "2",
+      "id": 1688752333589,
+      "user": "Ajay Chaudhary",
+      "date": "7/7/2023",
+      "amount": -996
+    },
+    {
+      "accountId": "2",
+      "id": 1688752606615,
+      "user": "Bank Loan",
+      "date": "7/7/2023",
+      "amount": 1000
+    },
+    {
+      "accountId": "2",
+      "id": 1688752816460,
+      "user": "Bank Loan",
+      "date": "7/7/2023",
+      "amount": 5000
+    },
+    {
+      "accountId": 2,
+      "id": 1688839756250,
+      "user": "Rancho Vashishtha",
+      "date": "7/8/2023",
+      "amount": 2000
+    },
+    {
+      "accountId": 5,
+      "id": 1688839756300,
+      "user": "Badal Vashishtha",
+      "date": "7/8/2023",
+      "amount": -2000
+    },
+    {
+      "accountId": 5,
+      "id": 1688888415847,
+      "user": "Badal Vashishtha",
+      "date": "7/9/2023",
+      "amount": 3000
+    },
+    {
+      "accountId": 2,
+      "id": 1688888415900,
+      "user": "Rancho Vashishtha",
+      "date": "7/9/2023",
+      "amount": -3000
+    },
+    {
+      "accountId": 5,
+      "id": 1688888514940,
+      "user": "Badal Vashishtha",
+      "date": "7/9/2023",
+      "amount": 15500
+    },
+    {
+      "accountId": 2,
+      "id": 1688888514991,
+      "user": "Rancho Vashishtha",
+      "date": "7/9/2023",
+      "amount": -15500
+    },
+    {
+      "accountId": 5,
+      "id": 1688925249025,
+      "user": "Raj Vash",
+      "date": "7/9/2023",
+      "amount": 333
+    },
+    {
+      "accountId": 2,
+      "id": 1688926228895,
+      "user": "Rav Aman",
+      "date": "7/9/2023",
+      "amount": 2344
+    },
+    {
+      "accountId": 5,
+      "id": 1688926251886,
+      "user": "Rav Aman",
+      "date": "7/9/2023",
+      "amount": 5333
+    },
+    {
+      "accountId": 2,
+      "id": 1688926690188,
+      "user": "Yukta Jain",
+      "date": "7/9/2023",
+      "amount": 3000
+    },
+    {
+      "accountId": 6,
+      "id": 1688967058189,
+      "user": "Puneet Singh",
+      "date": "7/10/2023",
+      "amount": 234
+    },
+    {
+      "accountId": 2,
+      "id": 1689006553607,
+      "user": "Puneet Vashshishtha",
+      "date": "7/10/2023",
+      "amount": 2500
+    },
+    {
+      "accountId": 5,
+      "id": 1689006563554,
+      "user": "Puneet Vashshishtha",
+      "date": "7/10/2023",
+      "amount": 4500
+    },
+    {
+      "accountId": 2,
+      "id": 1689007144844,
+      "user": "Umakant Vashishtha",
+      "date": "7/10/2023",
+      "amount": 5000
+    },
+    {
+      "accountId": 2,
+      "id": 1689007153789,
+      "user": "Umakant Vashishtha",
+      "date": "7/10/2023",
+      "amount": 1000
+    }
+  ]
+}

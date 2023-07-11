@@ -1,0 +1,110 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.titleBar {
+  grid-template-columns: auto auto auto;
+  background-color: rgb(161, 210, 250);
+  height: 50px;
+}
+.balanceContainer {
+  grid-template-columns: auto auto;
+  height: 80px;
+}
+.balanceContainer,
+.titleBar {
+  display: grid;
+  align-items: center;
+  text-align: justify;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logout-btn {
+  border: none;
+  background: none;
+}
+.currentBalanceHeading {
+  font-size: x-large;
+}
+.currentAmount {
+  font-size: xx-large;
+}
+/* .currentDate {
+  padding-left: 10px;
+} */
+.box {
+  background-color: rgb(151, 241, 229);
+}
+.inputFields {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10%;
+}
+.tansferMoney,
+.closeAccount,
+.requestLon {
+  margin-top: 20px;
+}
+.transaction-history {
+  margin: 20px;
+  overflow-y: auto;
+  height: 400px;
+}
+.input {
+  background-color: rgb(216, 247, 242);
+}
+.show-transaction {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  align-items: center;
+  text-align: justify;
+  justify-content: space-between;
+  border-bottom: solid lightgray;
+}
+.showTransaction-text {
+  align-items: center;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.login-form {
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form form {
+  min-width: 400px;
+}
+
+button.block {
+  width: 100%;
+}
+/* .login-items {
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

@@ -1,0 +1,35 @@
+GET http://0.0.0.0:3001/accounts
+Content-Type: application/json
+
+###
+GET http://0.0.0.0:3001/accounts/transactions
+Content-Type: application/json
+
+###
+GET http://0.0.0.0:3001/accounts?pin=1111
+Content-Type: application/json
+
+
+###
+GET http://0.0.0.0:3001/transactions?accountId=1
+Content-Type: application/json
+
+
+###
+POST http://0.0.0.0:3001/transactions
+Content-Type: application/json
+
+{
+  "id": 13,
+  "accountId": "1",
+  "user": "Badal Vashishtha",
+  "date": "2/03/2005",
+  "amount": 800
+}
+###
+PUT http://0.0.0.0:3001/accounts/account1
+Content-Type: application/json
+
+{
+  "owner": "ajay"
+}
